@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>설문지</title>
+        <body>
+            <h3>설문지</h3>
+<p>설문조사 하시지요</p>
+<hr>
+<form>
+학년 : <label>1<input type="radio" name="학년" value="1"></label> <label>2<input type="radio" name="학년" value="2"></label><label> 3<input type="radio" name="학년" value="3"></label>
+<p>
+성별 :<label>남자<input type="radio" name="성별" value="1"></label> <label>여자<input type="radio" name="성별" value="2"></label>
+<p>
+    관심분야 : <input type="text" list="관심"><br>
+    <datalist id="관심">
+        <option value="오토바이"></option>
+            <option value="복싱"></option>
+    </datalist>
+<p>
+    진로 : <label>백수<input type="checkbox" value="1"></label><label>취업<input type="checkbox" value="2"></label> <label>창업<input type="checkbox" value="3"></label>
+    <p>
+        남기고싶은말 : <textarea cols="20" rows="5">
+이곳에 작성바람
+        </textarea>
+    </p>
+</form>
+        </body>
